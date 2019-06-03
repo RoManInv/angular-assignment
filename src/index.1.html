@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/x-icon" href='images/favicon.ico' />
+
+    <title>News Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+		<link href="fontawesome/css/all.css" rel="stylesheet">
+	
+	<style>
+		.headline-img {
+		  width:100%;
+		  min-height:100px;
+		}
+		.headling-card{
+		  max-height:100px;
+		  overflow:hidden;
+		}
+	</style>
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark shadow py-0" id="mainNav">
+      <div class="container-fluid">
+		<div class="navbar-brand d-flex">
+			<img height="35" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+			<h4 class="ml-2">News Portal</h4>
+        </div>
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+		
+        <div class="collapse navbar-collapse" id="navCollapse">
+          <ul class="navbar-nav nav-pills ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#">All</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-warning" href="#">Entertainment</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-danger" href="#">Science</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-primary" href="#">Sports</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-success" href="#">Technology</a>
+			</li>
+			<li class="nav-item">
+				<form class="form-inline ml-3 mr-auto my-1">
+					<div class="input-group">
+						<input type="text" class="bg-light form-control border-0" placeholder="Search for...">
+						<div class="input-group-append">
+							<button class="btn btn-light p-1" type="button">
+							  <i class="fas fa-search"></i>
+							</button>
+						  </div>
+						
+					</div>
+				</form>
+			</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<div class="container mt-3">
+		<div class="row">
+			<h2>Top Headlines</h2>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card headling-card shadow">
+					<a href="#" target="_blank"><img class="card-img-top headline-img" src="https://media.npr.org/assets/img/2019/05/21/iftar-buffet---allam_wide-9faad39b462948bfddffd3f3158586e8a0ba28cd.jpg?s=1400" alt=""></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card headling-card shadow">
+					<a href="#" target="_blank"><img class="card-img-top headline-img" src="https://cnet2.cbsistatic.com/img/7Hm_h6EV84pbbz1tTo8JYfNnONI=/756x567/2019/05/17/d69a5f8e-ad6d-4674-9020-5b71353f8671/huawei-mate-20-x-5g-2.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card headling-card shadow">
+					<a href="#" target="_blank"><img class="card-img-top headline-img" src="https://images.anandtech.com/doci/14372/LightTheme_678x452.png" alt=""></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card headling-card shadow">
+					<a href="#" target="_blank"><img class="card-img-top headline-img" src="https://media.extratv.com/2019/05/22/the-voice-4-nbc-1200x630.jpg" alt=""></a> 
+				</div>
+			</div>
+			<div class="col">
+				<div class="card headling-card shadow">
+					<a href="#" target="_blank"><img class="card-img-top headline-img" src="https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5258%252C3505%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-01%252F15dd9d20-1e46-11e9-bfb5-833f5b1b3dcc%26client%3Da1acac3e1b3290917d92%26signature%3D0c5ae020ca3158023dc307004ff1c8783e1a166e&client=amp-blogside-v2&signature=dd67919ff0d2107e6a22ce75ef3344becafb4ee7" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<!-- Task 4 Start - Analytics Charts -->
+	<div class="container">
+		<div class="row">
+			<h2>Technology</h2>
+		</div>
+		<div class="row">
+		
+			<div class="col-md-4">
+			  <div class="card bg-light border-success shadow">
+				  <img class="card-img-top" src="https://fortniteinsider.com/wp-content/uploads/2019/05/Fortnite-X-Michael-Jordan-Jumpman-Skin-Outfit.jpg" alt="">
+				  <div class="card-body">
+					<h5 class="card-title">Fortnite X Michael Jordan "Jumpman" Skin Teased - Fortnite Insider</h5>
+					<p class="card-text">The Fortnite X Michael Jordan "Jumpman" skin was teased last night. Epic Games updated the MOTD (Message of the Day) to announce a new collaboration would be coming to Fortnite Battle Royale, Fortnite X Michael Jordan. There were no specifics revealed by Fort… <a href="https://fortniteinsider.com/fortnite-x-michael-jordan-jumpman-skin-teased/" target="_blank">more details</a></p>
+					<p class="text-right blockquote-footer">By Fortniteinsider.com on <cite title="Source Title">22-5-2019 03:01</cite></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+			  <div class="card bg-light border-success shadow">
+				  <img class="card-img-top" src="https://cnet2.cbsistatic.com/img/7Hm_h6EV84pbbz1tTo8JYfNnONI=/756x567/2019/05/17/d69a5f8e-ad6d-4674-9020-5b71353f8671/huawei-mate-20-x-5g-2.jpg" alt="">
+				  <div class="card-body">
+					<h5 class="card-title">Huawei OS reportedly 'far from ready' after Android ban - CNET</h5>
+					<p class="card-text">Huawei is looking to make its own operating system if the Android ban is permanent... <a href="https://www.cnet.com/news/huawei-os-reportedly-far-from-ready-after-android-ban-software/" target="_blank">more details</a></p>
+					<p class="text-right blockquote-footer">By Corinne Reichert on <cite title="Source Title">2019-05-08 05:36</cite></p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+			  <div class="card bg-light border-success shadow">
+				  <img class="card-img-top" src="https://i.gadgets360cdn.com/large/honor_20_pro_launch_gadgets_360_1558445685315.jpg" alt="">
+				  <div class="card-body">
+					<h5 class="card-title">Honor 20 Pro Scores Well in DxOMark Camera Review, Lauded for Zoom and Bokeh Skills - NDTV News</h5>
+					<p class="card-text">Honor 20 Pro is lauded for its exposure skills, bokeh effect, zoom, noise level, and great dynamic range... <a href="https://gadgets.ndtv.com/mobiles/news/honor-20-pro-dxomark-camera-review-111-points-great-dynamic-range-zoom-noise-level-2041119" target="_blank">more details</a></p>
+					<p class="text-right blockquote-footer">By Ndtv.com on <cite title="Source Title">2019-05-22 03:01</cite></p>
+				  </div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<!-- Task 4 Ends - Analytics Charts -->
+
+	
+	
+    <hr>
+
+	
+	
+	<!-- Task 3 Start - Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 text-muted">
+            Angular documentation can be found <a href="https://angular.io/docs">here</a>.
+          </div>
+		  
+		  <div class="col-6">
+			<div class="row justify-content-end">
+			  <div class="col-auto">
+				<a href="#">Facebook</a>
+				<a class="mx-3" href="#">Twitter</a>
+				<a href="#">GitHub</a>
+			  </div>
+			</div>
+			<div class="row justify-content-end"> 
+			  <div class="col-auto">
+				<p class="copyright text-muted">Copyright &copy; <span class="text-danger"> GROUP NAME </span> 2019</p>
+			  </div>
+			</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+	<!-- Task 3 End - Footer -->
+
+	
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="bootstrap-4.3.1-dist/jquery-3.4.0.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/popper.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	
+	<!-- Charts -->
+	<script src="js/Chart.min.js"></script>
+	<script src="js/assignments-chart.js"></script>
+	<script src="js/resources-chart.js"></script>
+	</body>
+
+</html>
